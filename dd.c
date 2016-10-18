@@ -8,7 +8,7 @@ Date: 2016-10-18
 #include<stdio.h>
 //#include<conio.h>
 void main(){
-int mod,a,b,sum,sub,mul,div;
+int mod,a,b,sum,sub,mul,div,v;
 
 	printf("Enter any number.:");
 	scanf("%d",&a);
@@ -25,4 +25,12 @@ int mod,a,b,sum,sub,mul,div;
 	printf ("\n %d * %d =  %d",a,b,mul);
 	printf ("\n %d / %d = %d",a,b,div);
 	printf ("\n %d %% %d= %d",a,b,mod);
+	
+	printf("Enter the v interger value:\n");
+	scanf("%d",&v);
+	printf("\nOriginal Value of V is %d \n",v);
+	printf("The Post-fix increment (v++)is : %d\n",v++);
+	printf("The Pre-Fix increment(++v) is : %d\n",++v);
+	
+	
 	}
