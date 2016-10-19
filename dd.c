@@ -15,7 +15,7 @@ int mod,a,b,sum,sub,mul,div,v;
 	printf("Enter the Second Number.:");
 	scanf("%d",&b);
 	sum=a+b;
-	sub=a/b;
+	sub=a-b;
 	mul=a*b;
 	div=a/b;
 	mod=a%b;
