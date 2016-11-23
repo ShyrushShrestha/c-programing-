@@ -12,7 +12,7 @@ int main(){
 float f,c;
 printf("Enter the temperature of centigrade\n");
 scanf("%f",&c);
-f=(0.56*c)+32;
+f=(1.8*c)+32;
 printf("Temperature in fahrenheit is %f",f);
 getch ();
 return (0);
