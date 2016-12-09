@@ -11,7 +11,7 @@ Subject : Programming Fundamental
 
 int main()
 {
-int a,b,c;
+int a,b;
 printf("Enter the first number:\n");
 scanf("%d",&a);
 
