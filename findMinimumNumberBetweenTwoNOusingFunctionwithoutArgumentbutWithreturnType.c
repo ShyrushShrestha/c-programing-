@@ -11,14 +11,14 @@ Date : 17 Jan, 2017
 #include<stdlib.h>
 #include<math.h>
 
-void min();
+int min();
 int  main()
 {
 	min();
 	return 0;
 }
 
-void min()
+int min()
 {
 	int a,b;
 	printf("Enter first number : \n");
@@ -27,4 +27,5 @@ void min()
 	scanf("%d",&b);
 	
 	(a>=b)?printf("%d is minimum numbers",b):printf("%d is the minimum number",a);
+	return 0 ;
 }
