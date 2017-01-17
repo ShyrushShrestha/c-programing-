@@ -11,17 +11,21 @@ Date : 17 Jan, 2017
 #include<stdlib.h>
 #include<math.h>
 
-int number(int n);
+int func(int n);
 int main()
 {
-	int n;
-	printf("Enter any number:\n");
-	scanf("%d",&n);
-	number(n);
+	int a,result;
+	printf("The number is : \n");
+	scanf("%d",&a);
+	result = func(a);
+	if(result ==1)printf("even");
+	else if(result==2)printf("odd");
 	return 0;
 }
-int number(int n)
+int func(int n)
 {
-(n%2==0)?printf("%d is even",n):printf("%d is odd",n);
-return 0;
+	if(n%2==0)
+		return 1;
+	else
+		return 2;
 }
