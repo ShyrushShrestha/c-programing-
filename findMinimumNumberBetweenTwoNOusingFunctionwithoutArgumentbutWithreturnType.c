@@ -1,4 +1,4 @@
-/* 
+ /* 
 Student Name : Ashis Shrestha
 Subject : Programming Fundamental
 Roll No :
@@ -14,7 +14,9 @@ Date : 17 Jan, 2017
 int min();
 int  main()
 {
-	min();
+	int result;
+	result = min();
+	printf("the minimum no is: %d",result);
 	return 0;
 }
 
@@ -26,6 +28,9 @@ int min()
 	printf("Enter the second number: \n");
 	scanf("%d",&b);
 	
-	(a>=b)?printf("%d is minimum numbers",b):printf("%d is the minimum number",a);
+	if(a<b)
+		return a;
+	else
+		return b;
 	return 0 ;
 }
